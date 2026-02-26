@@ -1,26 +1,26 @@
 class Mma < Formula
   desc "Model Match Auth CLI"
   homepage "https://github.com/model-match-inc/admin"
-  version "3.6.1"
+  version "3.7.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/model-match-inc/homebrew-tap/releases/download/v3.6.1/mma-darwin-arm64"
-      sha256 "4bc813651842e8d4eb877c097c88d4afd5ebcca69141f1c421926f0e4b05b5d0"
+      url "https://github.com/model-match-inc/homebrew-tap/releases/download/v3.7.0/mma-darwin-arm64"
+      sha256 "b2f4137da4c70bec227c37f7412d1fedea04bcb13526af09667e8017444f76d4"
     else
-      url "https://github.com/model-match-inc/homebrew-tap/releases/download/v3.6.1/mma-darwin-x64"
-      sha256 "a12554314867af8cfed230606c01126e01665ae0e2fcd60085e583fc66e97a55"
+      url "https://github.com/model-match-inc/homebrew-tap/releases/download/v3.7.0/mma-darwin-x64"
+      sha256 "05b49837560c8d0c482abea1971a5cb980bc0b00921f93c2a3a22836e7343697"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/model-match-inc/homebrew-tap/releases/download/v3.6.1/mma-linux-arm64"
-      sha256 "ce4371df8a7f9c9177677b050a82527dc33be59b0419c74e778a2f58f6a70770"
+      url "https://github.com/model-match-inc/homebrew-tap/releases/download/v3.7.0/mma-linux-arm64"
+      sha256 "58630e084b6e133f794cfe01b8f40735648da57e5fd2462065a3feacb23109b6"
     else
-      url "https://github.com/model-match-inc/homebrew-tap/releases/download/v3.6.1/mma-linux-x64"
-      sha256 "0c2adc090b871d7a2591d9f01f3a5c1f02e2de1a5c6558602f27e999bfe1b7cb"
+      url "https://github.com/model-match-inc/homebrew-tap/releases/download/v3.7.0/mma-linux-x64"
+      sha256 "e1bcbec97c375264cd7f0d5093e7dde30d06e342a5cefd2822e669136b2d3601"
     end
   end
 
